@@ -1,0 +1,24 @@
+
+table {
+    border: 2px solid;
+    background-color: Moccasin;
+}
+
+button {
+    background-color: gold;
+}
+
+.contactustitle {
+    color: white;
+    background-color: indianred;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.littlepadding {
+    padding: 7px;
+    margin: 10px;
+}
+
+.userinput {
+    border: none;
+}
