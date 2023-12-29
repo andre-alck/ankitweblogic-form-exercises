@@ -2,6 +2,7 @@
 table {
     border: 2px solid;
     background-color: Moccasin;
+    padding: 7px;
 }
 
 button {
@@ -14,11 +15,18 @@ button {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.littlepadding {
-    padding: 7px;
-    margin: 10px;
+.userinput {
+    width: 100%;
+    border: none;
+    padding: 10px;
 }
 
-.userinput {
-    border: none;
+td {
+    padding-top: 10px;
+    padding-right: 24px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
 }
