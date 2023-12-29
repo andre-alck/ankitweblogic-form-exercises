@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/registrationform/registrationform.css">
+</head>
+
+<body>
+    <form action="https://webhook.site/b04f3b2e-9f2e-42ca-991f-80de9771e45c" method="post">
+        <table border="3">
+            <thead>
+                <tr>
+                    <th style="border: 1cm;" colspan="3">Registration Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>Enter Name</div>
+                    </td>
+                    <td colspan="2"><input name="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td colspan="2"><input name="password" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Enter Address</td>
+                    <td colspan="2"><textarea name="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Select Game</td>
+                    <td colspan="2">
+                        <input name="game" id="nameinputhockey" value="hockey" type="checkbox">
+                        <label for="nameinputhockey">Hockey</label>
+                        <br>
+                        <input name="game" id="nameinputfootball" value="football" type="checkbox">
+                        <label for="nameinputfootball">Football</label>
+                        <br>
+                        <input name="game" id="nameinputbadminton" value="badminton" type="checkbox">
+                        <label for="nameinputbadminton">Badminton</label>
+                        <br>
+                        <input name="game" id="nameinputcricket" value="cricket" type="checkbox">
+                        <label for="nameinputcricket">Cricket</label>
+                        <br>
+                        <input name="game" id="nameinputvolleyball" value="volleyball" type="checkbox">
+                        <label for="nameinputvolleyball">Volleyball</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td colspan="2">
+                        <input name="gender" id="genderinputmale" value="male" type="radio">
+                        <label for="genderinputmale">Male</label>
+
+                        <input name="gender" id="genderinputfemale" value="female" type="radio">
+                        <label for="">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select category</td>
+                    <td colspan="2">
+                        <select name="category">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Photo</td>
+                    <td colspan="2"><input name="file" type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="centeredbutton">
+                        <button>Click Me</button>
+                        <button>Redefine</button>
+                        <button type="submit">Submit Form</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+
+form {
+    padding: 2px;
+    display: inline-block;
+}
+
+th {
+    background-color: #FFA;
+    color: red;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+td {
+    margin: 10em;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0CF;
+}
+
+button {
+    width: 30%;
+    height: 35px;
+}
+
+.centeredbutton {
+    text-align: center;
+}

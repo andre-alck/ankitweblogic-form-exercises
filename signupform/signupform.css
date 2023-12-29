@@ -1,0 +1,60 @@
+
+body {
+    color: yellow;
+}
+
+th {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: left;
+}
+
+tbody {
+    background-color: #222536;
+
+}
+
+tfoot {
+    text-align: right;
+}
+
+td {
+    padding-top: 10px;
+}
+
+table tr td:nth-child(1) {
+    padding-left: 25px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+table tr td:nth-child(2) {
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.orangebg {
+    padding: 5px;
+    background-color: orange;
+}
+
+.defaultbutton {
+    width: 25%;
+    height: 35px;
+    color: white;
+    border: none;
+}
+
+.sendbutton {
+    background-color: #62af5e
+}
+
+.cancelbutton {
+    background-color: #d9544f;
+}
